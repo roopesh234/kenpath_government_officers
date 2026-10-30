@@ -1,0 +1,35 @@
+{
+  "name": "kenpath-government-officers",
+  "version": "1.0.0",
+  "description": "అధికారి మిత్ర (Adhikari Mitra) - Revenue Officer AI Co-Pilot & Application Disposal Workbench",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n \"server,client\" -c \"blue,green\" \"npm run server\" \"npm run client\"",
+    "start": "npm run build && node server/server.js",
+    "server": "node --watch server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node server/test-endpoints.js"
+  },
+  "keywords": [
+    "andhra-pradesh",
+    "telangana",
+    "revenue-officer",
+    "meeseva",
+    "telugu-ai",
+    "ai-copilot",
+    "sachivalayam"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.39.1",
+    "prettier": "^3.4.2"
+  }
+}

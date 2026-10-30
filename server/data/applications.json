@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "APP-2026-001",
+    "applicationNumber": "AP0038472910",
+    "serviceType": "CASTE_INCOME",
+    "serviceNameTe": "కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం (BC-A / EWS)",
+    "serviceNameEn": "Caste & Income Certificate (BC-A / EWS)",
+    "applicant": {
+      "nameTe": "పి. మంజునాథ్",
+      "nameEn": "P. Manjunath",
+      "fatherNameTe": "వెంకటేశ్వరరావు",
+      "fatherNameEn": "Venkateswara Rao",
+      "gender": "పురుషుడు (Male)",
+      "age": 20,
+      "dob": "2006-04-12",
+      "aadhaar": "XXXX-XXXX-4819",
+      "mobile": "98451 23049",
+      "email": "manju.p06@example.com",
+      "addressTe": "ఇంటి నం. 45, తగరపువలస, భీమునిపట్నం మండలం, విశాఖపట్నం జిల్లా",
+      "addressEn": "House No 45, Thagarapuvalasa, Bheemunipatnam Mandal, Visakhapatnam District",
+      "village": "తగరపువలస (Thagarapuvalasa)",
+      "hobli": "భీమునిపట్నం (Bheemunipatnam)",
+      "taluk": "భీమునిపట్నం (Bheemili)",
+      "district": "విశాఖపట్నం (Visakhapatnam)",
+      "pincode": "531162"
+    },
+    "applicationDate": "2026-10-24T10:30:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 8,
+    "slaStatus": "NORMAL",
+    "priorityScore": 45,
+    "status": "PENDING",
+    "declaredDetails": {
+      "casteClaimed": "బీసీ-ఎ (BC-A)",
+      "subCaste": "అగ్నికులక్షత్రియ",
+      "annualIncomeClaimed": 48000,
+      "incomeSource": "చేపల వేట మరియు వ్యవసాయ కూలీ",
+      "landHolding": "భూమి లేదు (భూమిహీనుడు)",
+      "purpose": "ఇంజనీరింగ్ ప్రవేశం మరియు ఫీజు రీయింబర్స్‌మెంట్ (AP EAPCET కౌన్సిలింగ్)"
+    },
+    "documents": [
+      {
+        "id": "DOC-01",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "P. Manjunath",
+          "dob": "12/04/2006",
+          "address": "Thagarapuvalasa, Bheemili Mandal, Visakhapatnam",
+          "matchScore": 100
+        }
+      },
+      {
+        "id": "DOC-02",
+        "nameTe": "రైస్ కార్డు (BPL బియ్యం కార్డు)",
+        "nameEn": "BPL Rice Card",
+        "type": "RATION_CARD",
+        "status": "VERIFIED",
+        "verifiedVia": "EPDS Consumer Affairs DB",
+        "extractedData": {
+          "rcNumber": "WAP-29837190412",
+          "cardType": "White Rice Card (BPL)",
+          "headOfFamily": "Venkateswara Rao",
+          "memberFound": true
+        }
+      },
+      {
+        "id": "DOC-03",
+        "nameTe": "పాఠశాల బదిలీ ధ్రువీకరణ పత్రం (TC)",
+        "nameEn": "School Transfer Certificate",
+        "type": "SCHOOL_TC",
+        "status": "VERIFIED",
+        "verifiedVia": "CSE AP School Records DB",
+        "extractedData": {
+          "schoolName": "ZPHS Thagarapuvalasa",
+          "casteMentioned": "Agnikulakshatriya / BC-A",
+          "tcNumber": "TC-8491/2022"
+        }
+      },
+      {
+        "id": "DOC-04",
+        "nameTe": "గ్రామ సచివాలయ ధ్రువీకరణ నివేదిక",
+        "nameEn": "Grama Sachivalayam Verification",
+        "type": "SACHIVALAYAM_REPORT",
+        "status": "VERIFIED",
+        "verifiedVia": "Navasakam Portal",
+        "extractedData": {
+          "vroName": "Ch. Apparao",
+          "recommendation": "Eligible under BC-A",
+          "incomeVerified": "₹48,000"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "సి.హెచ్. అప్పారావు (గ్రామ రెవెన్యూ అధికారి / VRO)",
+      "inspectionDate": "2026-10-26",
+      "remarksTe": "దరఖాస్తుదారుని కుటుంబ విచారణ స్వయంగా చేయబడింది. దరఖాస్తుదారుడు అగ్నికులక్షత్రియ (BC-A) కులానికి చెందినవారు. కుటుంబానికి వ్యవసాయ భూమి లేదు, వార్షిక ఆదాయం రూ. 48,000/- మించదు. అన్ని వివరాలు సరిగ్గా ఉన్నట్లు ధ్రువీకరించడమైనది.",
+      "remarksEn": "Personal inquiry conducted. Applicant belongs to Agnikulakshatriya (BC-A) community. Family is landless with annual income below ₹48,000/-. All particulars verified as genuine.",
+      "recommended": true
+    },
+    "aiAnalysis": {
+      "summaryTe": "అర్హత కలిగిన స్పష్టమైన దరఖాస్తు. దరఖాస్తుదారుడు పి. మంజునాథ్ ఈఏపీసెట్ ఇంజనీరింగ్ కౌన్సిలింగ్ కోసం బీసీ-ఎ కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం కోరారు. గ్రామ సచివాలయ విచారణ నివేదిక, పాఠశాల టీసీ మరియు రైస్ కార్డు వివరాలు 100% సరిపోలుతున్నాయి. కుటుంబ ఆదాయం ప్రభుత్వ వార్షిక పరిమితి రూ. 1.00 లక్ష కంటే చాలా తక్కువగా ఉంది (రూ. 48,000).",
+      "summaryEn": "Eligible and fully verified case. Applicant P. Manjunath applied for BC-A Caste & Income Certificate for AP EAPCET counselling. Grama Sachivalayam VRO report, school TC, and BPL Rice Card match with 100% consistency. Family income of ₹48,000 is well within limits.",
+      "riskLevel": "LOW",
+      "riskColor": "green",
+      "confidenceScore": 98,
+      "suggestedDecision": "APPROVE",
+      "suggestedDecisionTe": "ఆమోదానికి సిఫార్సు చేయబడింది",
+      "suggestedDecisionEn": "Recommended for Approval",
+      "discrepancies": [],
+      "reasonsTe": [
+        "ఆధార్, రైస్ కార్డు మరియు పాఠశాల బదిలీ పత్రంలో (TC) పేరు, తండ్రి పేరు 100% సరిపోలాయి.",
+        "ప్రకటించిన వార్షిక ఆదాయం రూ. 48,000/- బియ్యం కార్డు పరిమితికి అనుగుణంగా ఉంది.",
+        "ఆంధ్రప్రదేశ్ ప్రభుత్వం గెజిట్ నోటిఫికేషన్ ప్రకారం అగ్నికులక్షత్రియ కులం బీసీ-ఎ వర్గంలో జాబితా చేయబడింది.",
+        "గ్రామ సచివాలయ వీఆర్వో క్షేత్ర పరిశీలన నివేదిక అనుకూలంగా ఉంది."
+      ],
+      "reasonsEn": [
+        "100% identity and parentage match across Aadhaar, Rice Card, and School TC.",
+        "Declared income of ₹48,000 is fully consistent with BPL Rice Card.",
+        "Agnikulakshatriya community is officially notified under BC-A in AP Gazette.",
+        "Grama Sachivalayam VRO field inspection report is positive and signed."
+      ],
+      "statuteReference": "ఆంధ్రప్రదేశ్ వెనుకబడిన తరగతుల రిజర్వేషన్ నిబంధనలు & జీవో నెం. 3 MS (BCW)",
+      "suggestedCitizenRemarkTe": "మీ బీసీ-ఎ కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం దరఖాస్తు ఆమోదించబడింది. మీసేవ లేదా గ్రామ సచివాలయం పోర్టల్ నుండి డిజిటల్ సంతకం చేసిన సర్టిఫికెట్ డౌన్‌లోడ్ చేసుకోవచ్చును."
+    },
+    "officerDecision": null,
+    "history": [
+      {
+        "action": "APPROVED",
+        "timestamp": "2026-10-30T06:54:21.842Z",
+        "by": "శ్రీ పి. సురేష్ వర్మ (రెవెన్యూ ఇన్‌స్పెక్టర్)",
+        "remarks": "అన్ని పత్రాలు సరిపోయాయి, మంజూరు చేయడమైనది."
+      },
+      {
+        "action": "APPROVED",
+        "timestamp": "2026-10-30T06:55:27.986Z",
+        "by": "శ్రీ పి. సురేష్ వర్మ (రెవెన్యూ ఇన్‌స్పెక్టర్)",
+        "remarks": "అన్ని పత్రాలు సరిపోయాయి, మంజూరు చేయడమైనది."
+      },
+      {
+        "action": "APPROVED",
+        "timestamp": "2026-10-30T07:02:44.399Z",
+        "by": "శ్రీ పి. సురేష్ వర్మ (రెవెన్యూ ఇన్‌స్పెక్టర్)",
+        "remarks": "అన్ని పత్రాలు సరిపోయాయి, మంజూరు చేయడమైనది."
+      }
+    ]
+  },
+  {
+    "id": "APP-2026-002",
+    "applicationNumber": "AP0038910482",
+    "serviceType": "CASTE_INCOME",
+    "serviceNameTe": "ఆదాయ మరియు కుల ధ్రువీకరణ పత్రం (BC-B)",
+    "serviceNameEn": "Income & Caste Certificate (BC-B)",
+    "applicant": {
+      "nameTe": "బి. సురేష్ కుమార్",
+      "nameEn": "B. Suresh Kumar",
+      "fatherNameTe": "బసవయ్య",
+      "fatherNameEn": "Basavayya",
+      "gender": "పురుషుడు (Male)",
+      "age": 28,
+      "dob": "1998-08-14",
+      "aadhaar": "XXXX-XXXX-9102",
+      "mobile": "99012 84721",
+      "email": "suresh.kumar.b@example.com",
+      "addressTe": "ఫ్లాట్ నెం. 12, కొత్తపేట, తెనాలి మండలం, గుంటూరు జిల్లా",
+      "addressEn": "Plot No 12, Kothapeta, Tenali Mandal, Guntur District",
+      "village": "తెనాలి (Tenali)",
+      "hobli": "తెనాలి అర్బన్ (Tenali Urban)",
+      "taluk": "తెనాలి (Tenali)",
+      "district": "గుంటూరు (Guntur)",
+      "pincode": "522201"
+    },
+    "applicationDate": "2026-10-21T09:15:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 2,
+    "slaStatus": "URGENT",
+    "priorityScore": 92,
+    "status": "PENDING",
+    "declaredDetails": {
+      "casteClaimed": "గౌడ (BC-B)",
+      "subCaste": "గౌడ",
+      "annualIncomeClaimed": 42000,
+      "incomeSource": "దినసరి కూలీ",
+      "landHolding": "భూమి లేదు (భూమిహీనుడు)",
+      "purpose": "ప్రభుత్వ హాస్టల్ ఫీజు రాయితీ & ఉద్యోగ రిజర్వేషన్"
+    },
+    "documents": [
+      {
+        "id": "DOC-06",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "B. Suresh Kumar",
+          "dob": "14/08/1998"
+        }
+      },
+      {
+        "id": "DOC-07",
+        "nameTe": "రేషన్ కార్డు వివరాలు",
+        "nameEn": "Ration Card Audit",
+        "type": "RATION_CARD",
+        "status": "FLAGGED",
+        "verifiedVia": "Civil Supplies AP DB",
+        "extractedData": {
+          "rcNumber": "AP-NPHH-5849201948",
+          "cardType": "NPHH (APL కార్డుదారుడు - దారిద్య్రరేఖకు దిగువన లేరు)",
+          "flag": "APL Card indicates non-BPL status"
+        }
+      },
+      {
+        "id": "DOC-08",
+        "nameTe": "వెబ్‌ల్యాండ్ అడంగల్ / 1-B రికార్డు (Meebhoomi Webland)",
+        "nameEn": "Land Webland Cross-Search",
+        "type": "RTC_LAND",
+        "status": "FLAGGED",
+        "verifiedVia": "AP Meebhoomi 1B Portal",
+        "extractedData": {
+          "surveyNo": "104/1A & 104/1B",
+          "extent": "6 ఎకరాల 20 కుంటలు (బోర్‌వెల్ మాగాణి కమర్షియల్ చెరకు తోట)",
+          "owners": "Basavayya & Suresh Kumar B (ఉమ్మడి పట్టాదారు పాస్‌బుక్)",
+          "annualEstimatedYield": "రూ. 3,50,000 నుండి రూ. 4,20,000"
+        }
+      },
+      {
+        "id": "DOC-09",
+        "nameTe": "వాహన్ పోర్టల్ తనిఖీ (Vahan Registry)",
+        "nameEn": "Vehicle Registry Check",
+        "type": "VEHICLE_REG",
+        "status": "FLAGGED",
+        "verifiedVia": "Parivahan AP Vahan DB",
+        "extractedData": {
+          "vehicleNo": "AP-07-TJ-4819",
+          "class": "Commercial Transport Vehicle (మహీంద్రా బొలెరో పికప్)",
+          "registeredOwner": "B. Suresh Kumar"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "కె. రాఘవేంద్ర రావు (వీఆర్వో)",
+      "inspectionDate": "2026-10-25",
+      "remarksTe": "దరఖాస్తుదారుడు కేవలం రూ. 42,000 కూలీ ఆదాయమని ప్రకటించారు. కానీ వెబ్‌ల్యాండ్ రికార్డుల ప్రకారం సర్వే నం. 104లో 6.20 ఎకరాల మాగాణి భూమి కలిగి ఉన్నారు. అదనంగా వాణిజ్య సరుకు రవాణా వాహనం ఉంది. ఆదాయాన్ని ఉద్దేశపూర్వకంగా తక్కువగా చూపించారు.",
+      "remarksEn": "Applicant declared only ₹42,000 daily wage. However, Webland 1B records reveal 6.20 acres irrigated land growing sugarcane, and Vahan database reveals a commercial transport vehicle.",
+      "recommended": false
+    },
+    "aiAnalysis": {
+      "summaryTe": "తీవ్రమైన ఆదాయ దాచివేత గుర్తించబడింది! దరఖాస్తుదారుడు తాము భూమిహీన దినసరి కూలీ అని రూ. 42,000 వార్షిక ఆదాయాన్ని ప్రకటించారు. అయితే మీభూమి (Meebhoomi Webland) రికార్డుల ప్రకారం సర్వే నం. 104లో కుటుంబ పేరిట 6 ఎకరాల 20 కుంటల నీటిపారుదల చెరకు తోట ఉంది మరియు పరివాహన్ పోర్టల్‌లో కమర్షియల్ బొలెరో వాహనం నమోదై ఉంది. వాస్తవ వార్షిక ఆదాయం రూ. 3.5 లక్షలకు పైగా ఉండి, ప్రభుత్వ ఆదాయ పరిమితిని మించిపోయింది.",
+      "summaryEn": "Severe income concealment detected! Applicant claimed to be a landless laborer with ₹42,000 income. However, AP Meebhoomi 1B records reveal 6 Acres 20 Guntas irrigated cash-crop land, and Vahan database reveals a commercial transport vehicle. Actual annual income exceeds ₹3.5 Lakhs.",
+      "riskLevel": "HIGH",
+      "riskColor": "red",
+      "confidenceScore": 95,
+      "suggestedDecision": "REJECT",
+      "suggestedDecisionTe": "తిరస్కరణకు బలమైన సిఫార్సు",
+      "suggestedDecisionEn": "Strongly Recommended for Rejection",
+      "discrepancies": [
+        "తప్పుడు ఆదాయ ప్రకటన: ప్రకటించినది రూ. 42,000, కానీ వాస్తవ అంచనా ఆదాయం రూ. 3,50,000+",
+        "భూమి దాచివేత: 'భూమి లేదు' అని పేర్కొన్నారు, కానీ మీభూమి 1-B ప్రకారం 6 ఎకరాల 20 కుంటల మాగాణి భూమి ఉంది",
+        "వాణిజ్య సరుకు రవాణా వాహనం (AP-07-TJ-4819) యాజమాన్యం గుర్తించబడింది",
+        "దారిద్య్రరేఖకు దిగువన లేని APL (NPHH) కార్డు కలిగి ఉన్నారు"
+      ],
+      "reasonsTe": [
+        "ప్రభుత్వ జీవో ప్రకారం బీసీ క్రిమీలేయర్ ఆదాయ పరిమితిని దరఖాస్తుదారుని వాస్తవ ఆదాయం మించిపోయింది.",
+        "మీభూమి వెబ్‌ల్యాండ్ మరియు అడంగల్ ప్రకారం 6.20 ఎకరాల వాణిజ్య పంటల భూమి ఆదాయాన్ని ఉద్దేశపూర్వకంగా దాచారు.",
+        "తప్పుడు స్వీయ ధ్రువీకరణ అఫిడవిట్ సమర్పించడం చట్టరీత్యా నేరమని పరిగణించబడుతుంది."
+      ],
+      "reasonsEn": [
+        "Violates Government Order income ceiling for BC reservation eligibility.",
+        "Intentional non-disclosure of 6 Acres 20 Guntas commercial farmland recorded in Meebhoomi 1B.",
+        "Submission of false self-declaration affidavit is punishable under Revenue rules."
+      ],
+      "statuteReference": "ఆంధ్రప్రదేశ్ వెనుకబడిన తరగతుల సంక్షేమ చట్టం - జీవో నెం. 3 (క్రిమీలేయర్ పరిమితి)",
+      "suggestedCitizenRemarkTe": "మీరు దరఖాస్తులో కేవలం రూ. 42,000/- ఆదాయమని ప్రకటించారు. కానీ రెవెన్యూ వెబ్‌ల్యాండ్ పరిశీలనలో 6.20 ఎకరాల మాగాణి తోట మరియు రవాణా వాహనం ఉన్నట్లు నిర్ధారణ అయింది. వాస్తవ ఆదాయం ప్రభుత్వ పరిమితిని మించి ఉన్నందున దరఖాస్తును తిరస్కరించడమైనది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-003",
+    "applicationNumber": "AP0091823471",
+    "serviceType": "SANDHYA_SURAKSHA",
+    "serviceNameTe": "వృద్ధాప్య పింఛను (వైఎస్సార్ పెన్షన్ కానుక / ఆసరా)",
+    "serviceNameEn": "Old Age Pension (YSR Pension Kanuka / Aasara)",
+    "applicant": {
+      "nameTe": "గంగమ్మ",
+      "nameEn": "Gangamma",
+      "husbandNameTe": "దివంగత మునెయ్య",
+      "husbandNameEn": "Late Muneyya",
+      "gender": "మహిళ (Female)",
+      "age": 58,
+      "dob": "1967-11-20",
+      "aadhaar": "XXXX-XXXX-6102",
+      "mobile": "97410 93821",
+      "email": "",
+      "addressTe": "కొలనుకొండ గ్రామం, మంగళగిరి మండలం, గుంటూరు జిల్లా",
+      "addressEn": "Kolanukonda Village, Mangalagiri Mandal, Guntur District",
+      "village": "కొలనుకొండ (Kolanukonda)",
+      "hobli": "మంగళగిరి (Mangalagiri)",
+      "taluk": "మంగళగిరి (Mangalagiri)",
+      "district": "గుంటూరు (Guntur)",
+      "pincode": "522503"
+    },
+    "applicationDate": "2026-10-23T11:45:00Z",
+    "slaDaysTotal": 21,
+    "slaDaysRemaining": 14,
+    "slaStatus": "NORMAL",
+    "priorityScore": 58,
+    "status": "PENDING",
+    "declaredDetails": {
+      "pensionScheme": "వృద్ధాప్య పింఛను (నెలవారీ పింఛను)",
+      "claimedAge": 62,
+      "familyAnnualIncome": 18000,
+      "maritalStatus": "వితంతువు (Widow)",
+      "bankAccount": "స్టేట్ బ్యాంక్ ఆఫ్ ఇండియా, మంగళగిరి (A/c: 04811019284)",
+      "hasOtherPension": "ఇతర పింఛన్లు ఏవీ లేవు"
+    },
+    "documents": [
+      {
+        "id": "DOC-10",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "FLAGGED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "Gangamma",
+          "dob": "20/11/1967",
+          "calculatedAge": "58 సంవత్సరాలు (Under required 60/62 years)",
+          "flag": "Age is below the mandatory minimum cutoff for Old Age Pension"
+        }
+      },
+      {
+        "id": "DOC-11",
+        "nameTe": "ఓటర్ గుర్తింపు కార్డు",
+        "nameEn": "Voter ID Card",
+        "type": "VOTER_ID",
+        "status": "FLAGGED",
+        "verifiedVia": "NVSP Portal",
+        "extractedData": {
+          "epicNo": "XAP0918274",
+          "age": "58 Years"
+        }
+      },
+      {
+        "id": "DOC-12",
+        "nameTe": "రైస్ కార్డు (BPL)",
+        "nameEn": "White Rice Card",
+        "type": "RATION_CARD",
+        "status": "VERIFIED",
+        "verifiedVia": "AP Civil Supplies DB",
+        "extractedData": {
+          "rcNumber": "WAP-2984710293",
+          "status": "Active"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "టి. మంజుల (గ్రామ రెవెన్యూ అధికారి / VRO)",
+      "inspectionDate": "2026-10-27",
+      "remarksTe": "దరఖాస్తుదారుని గంగమ్మ పేద వితంతువు. అయితే ఆధార్ కార్డు ప్రకారం ఆమె వయస్సు 58 సంవత్సరాలు మాత్రమే. వృద్ధాప్య పింఛనుకు కనీస వయస్సు 60 సంవత్సరాలు పూర్తి కావాల్సి ఉంది.",
+      "remarksEn": "Applicant is an indigent widow. However, as per Aadhaar records, her age is 58 years. Minimum age for Old Age Pension is 60 years.",
+      "recommended": false
+    },
+    "aiAnalysis": {
+      "summaryTe": "వయస్సు అర్హత నిబంధన లోపం గుర్తించబడింది. వృద్ధాప్య పింఛను పథకంలో ప్రయోజనం పొందడానికి కనీసం 60 సంవత్సరాల వయస్సు ఉండాలి. అయితే దరఖాస్తుదారుని ఆధార్ కార్డు (జన్మ తేదీ: 20/11/1967) ప్రకారం ఆమెకు ప్రస్తుతం 58 సంవత్సరాల 11 నెలలు మాత్రమే. కాబట్టి వృద్ధాప్య పింఛనుకు అనర్హులు. అయితే ఆమె నిరుపేద వితంతువు కాబట్టి, 'వితంతు పింఛను పథకం' (Widow Pension - కనీస వయస్సు 18 ఏళ్లు) కింద దరఖాస్తు చేసుకోవడానికి సంపూర్ణ అర్హత ఉంది.",
+      "summaryEn": "Age criterion not met. Minimum age for Old Age Pension is 60 years. However, applicant's Aadhaar (DOB 20/11/1967) indicates current age of 58 years. Ineligible under Old Age Pension. However, being an indigent widow, she is eligible under the Destitute Widow Pension Scheme.",
+      "riskLevel": "HIGH",
+      "riskColor": "red",
+      "confidenceScore": 99,
+      "suggestedDecision": "RETURN",
+      "suggestedDecisionTe": "పునఃసమీక్ష / వితంతు పింఛనుకు సిఫార్సు",
+      "suggestedDecisionEn": "Return to Citizen / Advise Widow Scheme",
+      "discrepancies": [
+        "కనీస వయస్సు లోపం: వృద్ధాప్య పింఛనుకు 60 ఏళ్లు ఉండాలి, కానీ దరఖాస్తుదారునికి 58 ఏళ్లు మాత్రమే",
+        "దరఖాస్తులో 62 సంవత్సరాలని తప్పుగా నమోదు చేశారు"
+      ],
+      "reasonsTe": [
+        "సామాజిక భద్రతా పింఛన్ల నిబంధనల ప్రకారం వృద్ధాప్య పింఛనుకు 60 సంవత్సరాలు పూర్తి కావాలి.",
+        "ఆధార్ మరియు ఓటర్ కార్డు రెండింటిలోనూ జన్మ సంవత్సరం 1967 గా నిర్ధారణ అయింది.",
+        "దరఖాస్తుదారునికి వితంతు పింఛను పథకం కింద నూతన దరఖాస్తు సమర్పించడానికి సూచించవచ్చును."
+      ],
+      "reasonsEn": [
+        "Statutory guidelines mandate minimum 60 years of age for Old Age Pension.",
+        "Both Aadhaar and Voter ID establish birth year as 1967 (current age 58).",
+        "Citizen should be advised to apply under Destitute Widow Pension Scheme."
+      ],
+      "statuteReference": "సామాజిక భద్రతా పింఛన్ల మార్గదర్శకాలు - నిబంధన 4(A)",
+      "suggestedCitizenRemarkTe": "వృద్ధాప్య పింఛనుకు కనీస వయస్సు 60 సంవత్సరాలు ఉండాలి. మీ ఆధార్ ప్రకారం ప్రస్తుత వయస్సు 58 సంవత్సరాలు ఉన్నందున ఈ దరఖాస్తు ఆమోదించలేము. మీరు వితంతువు కావున, 'వితంతు పింఛను పథకం' కింద గ్రామ సచివాలయంలో నూతన దరఖాస్తు సమర్పించవలసిందిగా కోరడమైనది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-004",
+    "applicationNumber": "AP0040182745",
+    "serviceType": "CASTE_INCOME",
+    "serviceNameTe": "మైనారిటీ కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం (BC-E)",
+    "serviceNameEn": "Minority Caste & Income Certificate (BC-E)",
+    "applicant": {
+      "nameTe": "ఫాతిమా బీ",
+      "nameEn": "Fatima Bi",
+      "fatherNameTe": "మహమ్మద్ ఇస్మాయిల్",
+      "fatherNameEn": "Mohammed Ismail",
+      "gender": "మహిళ (Female)",
+      "age": 19,
+      "dob": "2007-03-10",
+      "aadhaar": "XXXX-XXXX-3891",
+      "mobile": "96112 04829",
+      "email": "fatima.bi07@example.com",
+      "addressTe": "ఇంటి నెం. 18, మదీనా నగర్, కడప మండలం, వైఎస్సార్ కడప జిల్లా",
+      "addressEn": "No 18, Madina Nagar, Kadapa Mandal, YSR Kadapa District",
+      "village": "కడప (Kadapa)",
+      "hobli": "కడప రూరల్ (Kadapa Rural)",
+      "taluk": "కడప (Kadapa)",
+      "district": "వైఎస్సార్ కడప (YSR Kadapa)",
+      "pincode": "516001"
+    },
+    "applicationDate": "2026-10-25T14:20:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 9,
+    "slaStatus": "NORMAL",
+    "priorityScore": 62,
+    "status": "PENDING",
+    "declaredDetails": {
+      "casteClaimed": "ముస్లిం మైనారిటీ (BC-E)",
+      "subCaste": "షేక్ / ముస్లిం (BC-E)",
+      "annualIncomeClaimed": 65000,
+      "incomeSource": "టైలరింగ్ మరియు దినసరి కూలీ",
+      "landHolding": "భూమి లేదు",
+      "purpose": "జగనన్న విద్యా దీవెన & పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్"
+    },
+    "documents": [
+      {
+        "id": "DOC-14",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "Fatima Bi",
+          "dob": "10/03/2007"
+        }
+      },
+      {
+        "id": "DOC-15",
+        "nameTe": "పాఠశాల బదిలీ పత్రం (TC)",
+        "nameEn": "School Transfer Certificate",
+        "type": "SCHOOL_TC",
+        "status": "FLAGGED",
+        "verifiedVia": "Manual Inspection",
+        "extractedData": {
+          "flag": "అస్పష్టమైన స్కాన్ కాపీ - తండ్రి పేరు మరియు కులం కాలమ్ చదవడానికి వీలులేదు (Blurry document)",
+          "tcNumber": "Unreadable"
+        }
+      },
+      {
+        "id": "DOC-16",
+        "nameTe": "తండ్రి కుల ధ్రువీకరణ రికార్డు",
+        "nameEn": "Father's Caste Proof",
+        "type": "CASTE_PROOF",
+        "status": "MISSING",
+        "verifiedVia": "System Check",
+        "extractedData": {
+          "flag": "తండ్రి పత్రం జతపరచలేదు (Missing mandatory attachment)"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "ఎం. సురేష్ (వీఆర్వో)",
+      "inspectionDate": "2026-10-28",
+      "remarksTe": "దరఖాస్తుదారు కుటుంబం పేద ముస్లిం మైనారిటీ వర్గానికి చెందినది. అయితే అప్‌లోడ్ చేసిన పాఠశాల టీసీ అస్పష్టంగా ఉంది మరియు తండ్రి కుల రికార్డు జతపరచలేదు.",
+      "remarksEn": "Applicant is from an indigent Muslim family. However, uploaded school TC is blurred and father's caste proof is missing.",
+      "recommended": false
+    },
+    "aiAnalysis": {
+      "summaryTe": "పత్రాల లోపం ఉన్న దరఖాస్తు. దరఖాస్తుదారురాలు బీసీ-ఈ స్కాలర్‌షిప్ కోసం దరఖాస్తు చేసుకున్నారు. రైస్ కార్డు సరిపోలుతుంది. అయితే అప్‌లోడ్ చేసిన పాఠశాల బదిలీ పత్రం (TC) చాలా మసకగా ఉండి కులం వివరాలు చదవడానికి అసాధ్యంగా ఉంది. అలాగే తండ్రి కుల ధ్రువీకరణ జతపరచలేదు. తిరస్కరించే బదులు, స్పష్టమైన పత్రాలను తిరిగి అప్‌లోడ్ చేయడానికి దరఖాస్తుదారునికి పునఃసమీక్షకు పంపడం న్యాయోచితం.",
+      "summaryEn": "Document deficiency case. Applied for BC-E scholarship. BPL rice card is valid. However, the uploaded School TC is extremely blurry and unreadable, and father's caste record is missing. Returning the application to the citizen to re-upload clear documents within 7 days is recommended.",
+      "riskLevel": "MEDIUM",
+      "riskColor": "blue",
+      "confidenceScore": 91,
+      "suggestedDecision": "RETURN",
+      "suggestedDecisionTe": "పునఃసమీక్షకు పంపడానికి సిఫార్సు",
+      "suggestedDecisionEn": "Recommended to Return for Rectification",
+      "discrepancies": [
+        "పాఠశాల బదిలీ పత్రం (TC) అస్పష్టంగా ఉంది",
+        "తండ్రి కుల ధ్రువీకరణ పత్రం జతపరచలేదు"
+      ],
+      "reasonsTe": [
+        "కుల పరిశీలన నిబంధనల ప్రకారం పాఠశాల రికార్డు స్పష్టంగా ఉండాలి.",
+        "విద్యార్థినికి స్కాలర్‌షిప్ గడువు తప్పిపోకుండా 7 రోజుల వ్యవధిలో పత్రాలు సరిదిద్దడానికి అవకాశం ఇవ్వడం సబబు."
+      ],
+      "reasonsEn": [
+        "School TC must be legible as per Caste Verification guidelines.",
+        "Returning the file gives the student 7 days to re-upload clear scans without missing their scholarship deadline."
+      ],
+      "statuteReference": "పౌర సేవల హక్కు చట్టం - నిబంధన 8 (లోపభూయిష్ట పత్రాల సవరణ)",
+      "suggestedCitizenRemarkTe": "మీరు అప్‌లోడ్ చేసిన పాఠశాల టీసీ (TC) అస్పష్టంగా ఉండి చదవడానికి వీలులేదు. దయచేసి స్పష్టమైన స్కాన్ కాపీని మరియు తండ్రి పాఠశాల/కుల రికార్డును 7 రోజుల్లోగా గ్రామ సచివాలయం/మీసేవలో తిరిగి అప్‌లోడ్ చేయగలరు."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-005",
+    "applicationNumber": "AP0012948201",
+    "serviceType": "CROP_LOSS_RELIEF",
+    "serviceNameTe": "రైతు పంట నష్ట పరిహారం మరియు ఇన్‌పుట్ సబ్సిడీ (e-Crop / SDRF)",
+    "serviceNameEn": "Farmer Drought & Crop Loss Relief Subsidy (e-Crop / SDRF)",
+    "applicant": {
+      "nameTe": "బసవరాజు చౌదరి",
+      "nameEn": "Basavaraju Chowdary",
+      "fatherNameTe": "శివరామయ్య",
+      "fatherNameEn": "Sivaramayya",
+      "gender": "పురుషుడు (Male)",
+      "age": 52,
+      "dob": "1974-06-18",
+      "aadhaar": "XXXX-XXXX-8421",
+      "mobile": "94481 92837",
+      "email": "",
+      "addressTe": "కల్లూరు గ్రామం, కల్లూరు మండలం, కర్నూలు జిల్లా",
+      "addressEn": "Kallur Village, Kallur Mandal, Kurnool District",
+      "village": "కల్లూరు (Kallur)",
+      "hobli": "కల్లూరు (Kallur)",
+      "taluk": "కర్నూలు (Kurnool)",
+      "district": "కర్నూలు (Kurnool)",
+      "pincode": "518003"
+    },
+    "applicationDate": "2026-10-16T08:30:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 0,
+    "slaStatus": "EXPIRED",
+    "priorityScore": 99,
+    "status": "PENDING",
+    "declaredDetails": {
+      "scheme": "రాష్ట్ర విపత్తు సహాయ నిధి (SDRF) కరువు పరిహారం",
+      "surveyNumber": "142/2",
+      "hissa": "2A",
+      "cropSown": "పత్తి మరియు కంది (Cotton & Redgram)",
+      "extentDamaged": "3 ఎకరాల 15 కుంటలు",
+      "damagePercentage": "65% తీవ్ర నష్టం (వర్షాభావం)",
+      "eCropId": "ECROP-KRN-2026-91823",
+      "bankAccount": "ఆంధ్ర ప్రగతి గ్రామీణ బ్యాంక్ (A/c: 19482019482)"
+    },
+    "documents": [
+      {
+        "id": "DOC-18",
+        "nameTe": "మీభూమి అడంగల్ / 1-B (Adangal)",
+        "nameEn": "Webland Adangal Record",
+        "type": "RTC_LAND",
+        "status": "VERIFIED",
+        "verifiedVia": "AP Meebhoomi Webland Portal",
+        "extractedData": {
+          "surveyNo": "142/2",
+          "extent": "3 Acres 15 Guntas",
+          "khataNo": "942",
+          "owner": "Basavaraju Chowdary S/o Sivaramayya"
+        }
+      },
+      {
+        "id": "DOC-19",
+        "nameTe": "ఈ-క్రాప్ బుకింగ్ డేటాబేస్ (e-Crop Verification)",
+        "nameEn": "e-Crop Mobile Survey & Satellite DB",
+        "type": "CROP_SURVEY",
+        "status": "VERIFIED",
+        "verifiedVia": "AP Agriculture e-Crop System",
+        "extractedData": {
+          "surveyPlotMatch": true,
+          "season": "ఖరీఫ్ 2026",
+          "cropRecorded": "Cotton (పత్తి)",
+          "satelliteDamageIndex": "తీవ్ర కరువు నష్టం (65% Damage)"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "పి. కంబగిరి (వ్యవసాయాధికారి & వీఆర్వో జాయింట్ టీమ్)",
+      "inspectionDate": "2026-10-20",
+      "remarksTe": "క్షేత్ర పరిశీలన చేయబడింది. వర్షాభావం వల్ల పత్తి పంట పూర్తిగా ఎండిపోయి 65% నష్టం వాటిల్లింది. ఎస్‌డీఆర్‌ఎఫ్ నిబంధనల ప్రకారం ఇన్‌పుట్ సబ్సిడీకి అర్హులు.",
+      "remarksEn": "Field inspection conducted. Cotton crop withered severely due to drought (65% damage). Eligible for SDRF input subsidy.",
+      "recommended": true
+    },
+    "aiAnalysis": {
+      "summaryTe": "అత్యంత తక్షణ ప్రాధాన్యత కలిగిన దరఖాస్తు! సేవా హక్కు చట్టం (SLA) గడువు నేడే ముగుస్తుంది. కర్నూలు జిల్లా కల్లూరు మండలం రైతు బసవరాజు చౌదరి సర్వే నం. 142/2 లోని 3.15 ఎకరాల పత్తి పంట కరువు కారణంగా 65% నష్టపోయింది. ఈ-క్రాప్ (e-Crop), మీభూమి అడంగల్ మరియు ఆధార్ అనుసంధాన బ్యాంక్ వివరాలు 100% నిర్ధారణ అయ్యాయి. గడువు ముగిసి జరిమానా పడకుండా వెంటనే రూ. 18,500/- ఇన్‌పుట్ సబ్సిడీ మంజూరు చేయడానికి సిఫార్సు చేయబడింది.",
+      "summaryEn": "Critical priority! Statutory SLA deadline expires TODAY. Farmer Basavaraju Chowdary's 3.15 acres cotton crop suffered 65% drought damage. e-Crop survey, Meebhoomi 1B, and Aadhaar bank seeding are 100% verified. Immediate approval of ₹18,500 input subsidy recommended to prevent SLA breach penalty.",
+      "riskLevel": "LOW",
+      "riskColor": "green",
+      "confidenceScore": 99,
+      "suggestedDecision": "APPROVE",
+      "suggestedDecisionTe": "తక్షణ ఆమోదానికి సిఫార్సు (అత్యవసరం)",
+      "suggestedDecisionEn": "Immediate Approval Recommended (SLA Critical)",
+      "discrepancies": [],
+      "reasonsTe": [
+        "సేవా గడువు నేడే ముగుస్తుంది; ఆలస్యమైతే అధికారులపై చట్టబద్ధమైన చర్యలు ఉండే అవకాశం ఉంది.",
+        "ఈ-క్రాప్ (e-Crop) సర్వేలో పంట నష్టం 65% రికార్డైంది (కనీస అర్హత 33% కంటే ఎక్కువ).",
+        "ఆధార్ అనుసంధానమైన బ్యాంక్ ఖాతా డీబీటీ (DBT) కొరకు సిద్ధంగా ఉంది."
+      ],
+      "reasonsEn": [
+        "SLA deadline expires today; immediate clearance prevents departmental penalty.",
+        "Crop damage (65%) exceeds statutory 33% threshold under SDRF guidelines.",
+        "Aadhaar-seeded bank account is active and verified for DBT credit."
+      ],
+      "statuteReference": "జాతీయ & రాష్ట్ర విపత్తు సహాయ నిధి (SDRF) వ్యవసాయ మార్గదర్శకాలు",
+      "suggestedCitizenRemarkTe": "మీ సర్వే నం. 142/2 పత్తి పంట నష్టానికి ఎస్‌డీఆర్‌ఎఫ్ నిబంధనల ప్రకారం రూ. 18,500/- ఇన్‌పుట్ సబ్సిడీ మంజూరైంది. ఈ మొత్తం నేరుగా మీ ఆధార్ లింక్ అయిన బ్యాంక్ ఖాతాలో జమ చేయబడుతుంది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-006",
+    "applicationNumber": "AP0039201948",
+    "serviceType": "CASTE_INCOME",
+    "serviceNameTe": "కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం (BC-B)",
+    "serviceNameEn": "Caste & Income Certificate (BC-B)",
+    "applicant": {
+      "nameTe": "శ్వేత కె.",
+      "nameEn": "Shwetha K.",
+      "fatherNameTe": "కృష్ణమూర్తి",
+      "fatherNameEn": "Krishnamurthy",
+      "gender": "మహిళ (Female)",
+      "age": 22,
+      "dob": "2004-09-05",
+      "aadhaar": "XXXX-XXXX-1948",
+      "mobile": "98801 84920",
+      "email": "shwetha.k99@example.com",
+      "addressTe": "గాంధీ నగర్, విజయవాడ అర్బన్, ఎన్టీఆర్ జిల్లా",
+      "addressEn": "Gandhi Nagar, Vijayawada Urban, NTR District",
+      "village": "విజయవాడ (Vijayawada)",
+      "hobli": "గాంధీ నగర్ (Gandhi Nagar)",
+      "taluk": "విజయవాడ అర్బన్ (Vijayawada)",
+      "district": "ఎన్టీఆర్ జిల్లా (NTR District)",
+      "pincode": "520003"
+    },
+    "applicationDate": "2026-10-26T16:10:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 10,
+    "slaStatus": "NORMAL",
+    "priorityScore": 38,
+    "status": "PENDING",
+    "declaredDetails": {
+      "casteClaimed": "పద్మశాలి (BC-B)",
+      "subCaste": "పద్మశాలి",
+      "annualIncomeClaimed": 55000,
+      "incomeSource": "చేనేత మగ్గం మరియు ప్రైవేట్ ఉద్యోగం",
+      "landHolding": "భూమి లేదు",
+      "purpose": "ఏపీపీఎస్సీ గ్రూప్స్ ఉద్యోగ పరీక్షల దరఖాస్తు"
+    },
+    "documents": [
+      {
+        "id": "DOC-21",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "Shwetha Krishnamurthy",
+          "dob": "05/09/2004",
+          "note": "Name has expanded father name"
+        }
+      },
+      {
+        "id": "DOC-22",
+        "nameTe": "పాఠశాల బదిలీ పత్రం (TC)",
+        "nameEn": "School Transfer Certificate",
+        "type": "SCHOOL_TC",
+        "status": "VERIFIED",
+        "verifiedVia": "CSE AP School Records DB",
+        "extractedData": {
+          "candidateName": "Shwetha K.",
+          "fatherName": "Krishnamurthy",
+          "casteMentioned": "Padmashali (BC-B)"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "రామచంద్రరావు (వీఆర్వో)",
+      "inspectionDate": "2026-10-28",
+      "remarksTe": "దరఖాస్తుదారురాలు పద్మశాలి కులానికి చెందినవారు. ఆధార్‌లో 'శ్వేత కృష్ణమూర్తి' అని, పాఠశాల రికార్డులో 'శ్వేత కె.' అని ఉంది. రెండూ ఒకే వ్యక్తికి చెందినవని నిర్ధారించడమైనది.",
+      "remarksEn": "Applicant belongs to Padmashali community. Name in Aadhaar has expanded father name while School TC has initial. Both refer to the same individual.",
+      "recommended": true
+    },
+    "aiAnalysis": {
+      "summaryTe": "స్వల్ప లిప్యంతరీకరణ వ్యత్యాసం కలిగిన అర్హత గల దరఖాస్తు. ఆధార్ కార్డులో 'Shwetha Krishnamurthy' మరియు పాఠశాల టీసీలో 'Shwetha K.' అని ఉంది. మా AI ఫోనెటిక్ అల్గారిథమ్ 96% సరిపోలికను నిర్ధారించింది (తండ్రి పేరు సంక్షిప్తంగా 'కె.' అని ఉంది). పద్మశాలి కులం బీసీ-బి వర్గంలో ఉంది మరియు ఆదాయం రూ. 55,000 పరిమితిలో ఉంది. మంజూరు చేయవచ్చు.",
+      "summaryEn": "Eligible case with minor initial expansion variation. Aadhaar has expanded father name while School TC has initial. AI phonetic matching confirms 96% identity match. Padmashali caste is listed under BC-B and family income is within limits. Recommended for approval.",
+      "riskLevel": "LOW",
+      "riskColor": "green",
+      "confidenceScore": 96,
+      "suggestedDecision": "APPROVE",
+      "suggestedDecisionTe": "ఆమోదానికి సిఫార్సు (పేరు సరిపోలిక నిర్ధారించబడింది)",
+      "suggestedDecisionEn": "Recommended for Approval (Name Match Confirmed)",
+      "discrepancies": [],
+      "reasonsTe": [
+        "ఆధార్‌లో తండ్రి పేరును విస్తరించి వ్రాశారు, పాఠశాలలో ఇంటిపేరు/తండ్రిపేరు సంక్షిప్తీకరించబడింది.",
+        "పద్మశాలి కులం ఆంధ్రప్రదేశ్ బీసీ-బి నోటిఫికేషన్ జాబితాలో ఉంది.",
+        "కుటుంబ వార్షిక ఆదాయం నిబంధనల పరిధిలోనే ఉంది."
+      ],
+      "reasonsEn": [
+        "Initial expansion ('Krishnamurthy' vs 'K.') is standard regional convention.",
+        "Padmashali caste is officially listed under Category BC-B.",
+        "Family income is below the statutory ceiling."
+      ],
+      "statuteReference": "ఆంధ్రప్రదేశ్ వెనుకబడిన తరగతుల జాబితా నోటిఫికేషన్",
+      "suggestedCitizenRemarkTe": "మీ బీసీ-బి కుల మరియు ఆదాయ ధ్రువీకరణ పత్రం దరఖాస్తును పరిశీలించి ఆమోదించడమైనది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-007",
+    "applicationNumber": "AP0082910482",
+    "serviceType": "LAND_MUTATION",
+    "serviceNameTe": "వ్యవసాయ భూమి వారసత్వ మ్యుటేషన్ & పట్టాదారు పాస్‌బుక్ (Mutation)",
+    "serviceNameEn": "Agricultural Land Inheritance Mutation & Pattadar Passbook",
+    "applicant": {
+      "nameTe": "రమేష్ బాబు",
+      "nameEn": "Ramesh Babu",
+      "fatherNameTe": "దివంగత హనుమంతరావు",
+      "fatherNameEn": "Late Hanumantha Rao",
+      "gender": "పురుషుడు (Male)",
+      "age": 44,
+      "dob": "1982-01-22",
+      "aadhaar": "XXXX-XXXX-7104",
+      "mobile": "94490 19284",
+      "email": "ramesh.babu@example.com",
+      "addressTe": "చంద్రగిరి గ్రామం, చంద్రగిరి మండలం, తిరుపతి జిల్లా",
+      "addressEn": "Chandragiri Village, Chandragiri Mandal, Tirupati District",
+      "village": "చంద్రగిరి (Chandragiri)",
+      "hobli": "చంద్రగిరి (Chandragiri)",
+      "taluk": "చంద్రగిరి (Chandragiri)",
+      "district": "తిరుపతి (Tirupati)",
+      "pincode": "517101"
+    },
+    "applicationDate": "2026-10-18T12:00:00Z",
+    "slaDaysTotal": 30,
+    "slaDaysRemaining": 1,
+    "slaStatus": "URGENT",
+    "priorityScore": 94,
+    "status": "PENDING",
+    "declaredDetails": {
+      "mutationType": "వారసత్వ బదిలీ (Inheritance on Death of Pattadar)",
+      "surveyNumber": "56/3",
+      "extent": "2 ఎకరాల 00 కుంటలు",
+      "deceasedOwner": "హనుమంతరావు (మరణ తేదీ: 15-02-2026)",
+      "legalHeirsCount": 3,
+      "heirsNames": "1) లక్ష్మమ్మ (భార్య), 2) రమేష్ బాబు (కుమారుడు), 3) మంజుల (కుమార్తె)"
+    },
+    "documents": [
+      {
+        "id": "DOC-24",
+        "nameTe": "మరణ ధ్రువీకరణ పత్రం (Death Certificate)",
+        "nameEn": "Death Certificate",
+        "type": "DEATH_CERT",
+        "status": "VERIFIED",
+        "verifiedVia": "e-Janma Birth & Death Registry",
+        "extractedData": {
+          "deceasedName": "Hanumantha Rao",
+          "dod": "15/02/2026",
+          "registrationNo": "D-2026-918204"
+        }
+      },
+      {
+        "id": "DOC-25",
+        "nameTe": "కుటుంబ సభ్యుల ధ్రువీకరణ (Family Member Certificate)",
+        "nameEn": "Family Member Certificate",
+        "type": "FAMILY_TREE",
+        "status": "VERIFIED",
+        "verifiedVia": "MeeSeva FMC Database",
+        "extractedData": {
+          "heirsListed": ["Lakshmamma (Wife)", "Ramesh Babu (Son)", "Manjula (Daughter)"]
+        }
+      },
+      {
+        "id": "DOC-26",
+        "nameTe": "ఇతర వారసుల సమ్మతి పత్రం (Joint NOC)",
+        "nameEn": "Legal Heirs Joint NOC",
+        "type": "NOC_HEIRS",
+        "status": "VERIFIED",
+        "verifiedVia": "Sub-Registrar e-Stamping Portal",
+        "extractedData": {
+          "jointConsentGiven": true
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "కె. సిద్ధయ్య (రెవెన్యూ ఇన్‌స్పెక్టర్ / RI)",
+      "inspectionDate": "2026-10-24",
+      "remarksTe": "క్షేత్ర పరిశీలన చేయబడింది. మృతుని భార్య లక్ష్మమ్మ, కుమార్తె మంజుల సమక్షంలో వాంగ్మూలాలు నమోదు చేయబడ్డాయి. ఎలాంటి తగాదాలు లేవు. 30 రోజుల నోటీసు గడువు పూర్తయింది.",
+      "remarksEn": "Spot mahazar conducted. Statements recorded from heirs. No objections received. 30-day notice period completed.",
+      "recommended": true
+    },
+    "aiAnalysis": {
+      "summaryTe": "వ్యవసాయ భూమి వారసత్వ మ్యుటేషన్ దరఖాస్తు. పట్టాదారు హనుమంతరావు మరణానంతరం ఆయన చట్టబద్ధమైన వారసులకు ఉమ్మడి పట్టాదారు పాస్‌బుక్ జారీ కోసం దరఖాస్తు చేసుకున్నారు. ఈ-జన్మ మరణ ధ్రువీకరణ పత్రం, మీసేవ ఫ్యామిలీ మెంబర్ సర్టిఫికెట్ మరియు నోటరీ సమ్మతి పత్రాలు పూర్తిగా ధ్రువీకరించబడ్డాయి. 30 రోజుల నోటీసు గడువులో ఎలాంటి అభ్యంతరాలు రాలేదు. గడువు ముగియడానికి 1 రోజు మాత్రమే మిగిలి ఉంది; వెంటనే ఆమోదానికి సిఫార్సు చేయబడింది.",
+      "summaryEn": "Agricultural land inheritance mutation case. Following death of pattadar Hanumantha Rao, joint transfer to heirs is requested. e-Janma death certificate, MeeSeva family member certificate, and joint NOC verified. 30-day notice completed with zero objections. Immediate approval recommended.",
+      "riskLevel": "LOW",
+      "riskColor": "green",
+      "confidenceScore": 99,
+      "suggestedDecision": "APPROVE",
+      "suggestedDecisionTe": "ఆమోదానికి సిఫార్సు (మ్యుటేషన్ ఆర్డర్)",
+      "suggestedDecisionEn": "Recommended for Approval (Mutation Order)",
+      "discrepancies": [],
+      "reasonsTe": [
+        "ఈ-జన్మ అధికారిక పోర్టల్ ద్వారా మరణ ధ్రువీకరణ పత్రం సరిపోలింది.",
+        "మీసేవ సర్టిఫికెట్ ప్రకారం చట్టబద్ధమైన వారసులందరి ఉమ్మడి సమ్మతి పత్రం సమర్పించబడింది.",
+        "గ్రామ చావడిలో ప్రచురించిన 30 రోజుల నోటీసు వ్యవధిలో ఎలాంటి తగాదా దరఖాస్తులు రాలేదు."
+      ],
+      "reasonsEn": [
+        "Death certificate successfully authenticated against civil registry.",
+        "Joint consent NOC submitted by all legal heirs.",
+        "Statutory 30-day public notice completed with zero disputes."
+      ],
+      "statuteReference": "ఆంధ్రప్రదేశ్ హక్కుల రికార్డు మరియు పట్టాదారు పాస్‌బుక్ చట్టం (ROR Act 1971)",
+      "suggestedCitizenRemarkTe": "సర్వే నం. 56/3 వారసత్వ మ్యుటేషన్ ఉత్తర్వు ఆమోదించబడింది. నూతన ఉమ్మడి పట్టాదారు పాస్‌బుక్ మరియు 1-B మీభూమిలో నమోదు చేయబడింది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-008",
+    "applicationNumber": "AP0071829304",
+    "serviceType": "DISABILITY_PENSION",
+    "serviceNameTe": "దివ్యాంగుల పింఛను (SADAREM Disability Pension)",
+    "serviceNameEn": "Disability Welfare Pension (SADAREM)",
+    "applicant": {
+      "nameTe": "మల్లికార్జున రావు",
+      "nameEn": "Mallikarjuna Rao",
+      "fatherNameTe": "గురువయ్య",
+      "fatherNameEn": "Guruvayya",
+      "gender": "పురుషుడు (Male)",
+      "age": 34,
+      "dob": "1992-05-14",
+      "aadhaar": "XXXX-XXXX-9304",
+      "mobile": "97319 82741",
+      "email": "",
+      "addressTe": "కొత్తూరు గ్రామం, అనకాపల్లి మండలం, అనకాపల్లి జిల్లా",
+      "addressEn": "Kothuru Village, Anakapalli Mandal, Anakapalli District",
+      "village": "కొత్తూరు (Kothuru)",
+      "hobli": "అనకాపల్లి (Anakapalli)",
+      "taluk": "అనకాపల్లి (Anakapalli)",
+      "district": "అనకాపల్లి (Anakapalli)",
+      "pincode": "531001"
+    },
+    "applicationDate": "2026-10-22T10:15:00Z",
+    "slaDaysTotal": 21,
+    "slaDaysRemaining": 13,
+    "slaStatus": "NORMAL",
+    "priorityScore": 50,
+    "status": "PENDING",
+    "declaredDetails": {
+      "disabilityType": "లోకోమోటర్ అంగవైకల్యం (Locomotor Disability)",
+      "disabilityPercentage": 60,
+      "sadaremId": "SADAREM-AP-04102199200",
+      "familyAnnualIncome": 24000,
+      "pensionClaimed": "దివ్యాంగుల పింఛను (నెలవారీ రూ. 3,000/-)"
+    },
+    "documents": [
+      {
+        "id": "DOC-28",
+        "nameTe": "సదరెం ధ్రువీకరణ పత్రం (SADAREM Certificate)",
+        "nameEn": "SADAREM Disability Card",
+        "type": "UDID_CARD",
+        "status": "VERIFIED",
+        "verifiedVia": "AP SADAREM Medical Board Portal",
+        "extractedData": {
+          "sadaremId": "SADAREM-AP-04102199200",
+          "disability": "Locomotor - Permanent",
+          "percentage": "60%",
+          "hospital": "District Medical Board, Anakapalli"
+        }
+      },
+      {
+        "id": "DOC-29",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "Mallikarjuna Rao",
+          "dob": "14/05/1992"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "పి. శశికాంత్ (వీఆర్వో)",
+      "inspectionDate": "2026-10-26",
+      "remarksTe": "దరఖాస్తుదారుడిని స్వయంగా కలిసి పరిశీలించడమైనది. రెండు కాళ్లు చలనశీలత కోల్పోయి వీల్‌చైర్‌పై ఆధారపడి ఉన్నారు. అర్హత కలిగిన నిజమైన పేద దివ్యాంగుడు.",
+      "remarksEn": "Personal visit conducted. Applicant has permanent locomotor disability in lower limbs, wheelchair bound. Genuine deserving case.",
+      "recommended": true
+    },
+    "aiAnalysis": {
+      "summaryTe": "దివ్యాంగుల సంక్షేమ పింఛను దరఖాస్తు. సదరెం (SADAREM) పోర్టల్‌లో దరఖాస్తుదారుని పత్రం పరిశీలించబడింది. జిల్లా వైద్య మండలి ధ్రువీకరించిన 60% శాశ్వత లోకోమోటర్ అంగవైకల్యం నిరూపితమైంది. కుటుంబ ఆదాయం రూ. 24,000 బిపీఎల్ నిబంధనల పరిధిలోనే ఉంది. ఎలాంటి లోపాలు లేవు; వెంటనే మంజూరుకు సిఫార్సు చేయబడింది.",
+      "summaryEn": "Disability welfare pension application. SADAREM certificate verified on AP Medical Board portal, confirming 60% permanent locomotor disability. BPL status and bank details validated with zero discrepancies. Recommended for immediate approval.",
+      "riskLevel": "LOW",
+      "riskColor": "green",
+      "confidenceScore": 99,
+      "suggestedDecision": "APPROVE",
+      "suggestedDecisionTe": "మంజూరుకు సిఫార్సు చేయబడింది",
+      "suggestedDecisionEn": "Recommended for Approval",
+      "discrepancies": [],
+      "reasonsTe": [
+        "సదరెం (SADAREM) మెడికల్ బోర్డ్ సర్టిఫికెట్ 100% ప్రామాణీకరించబడింది.",
+        "అంగవైకల్యం 60% ఉండి, ప్రభుత్వ నిబంధనల ప్రకారం (కనీసం 40%) పింఛనుకు సంపూర్ణ అర్హులు.",
+        "రైస్ కార్డు మరియు ఆధార్ అనుసంధానం సక్రియంగా ఉన్నాయి."
+      ],
+      "reasonsEn": [
+        "SADAREM card successfully authenticated on AP Medical Board portal.",
+        "Disability of 60% fulfills the statutory threshold of >= 40%.",
+        "Rice card and bank Aadhaar seeding are active."
+      ],
+      "statuteReference": "దివ్యాంగుల సంక్షేమ హక్కుల చట్టం & సామాజిక పింఛన్ల మార్గదర్శకాలు",
+      "suggestedCitizenRemarkTe": "మీకు దివ్యాంగుల సంక్షేమ పింఛను మంజూరు చేయబడింది. ప్రతి నెలా 1వ తేదీన నేరుగా మీ ఖాతాలో జమ చేయబడుతుంది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-009",
+    "applicationNumber": "AP0039482019",
+    "serviceType": "CASTE_INCOME",
+    "serviceNameTe": "షెడ్యూల్డ్ తెగ (ST) కుల ధ్రువీకరణ పత్రం",
+    "serviceNameEn": "Scheduled Tribe (ST) Caste Certificate",
+    "applicant": {
+      "nameTe": "ప్రకాష్ నాయక్",
+      "nameEn": "Prakash Naik",
+      "fatherNameTe": "చంద్రప్ప నాయక్",
+      "fatherNameEn": "Chandrappa Naik",
+      "gender": "పురుషుడు (Male)",
+      "age": 24,
+      "dob": "2002-12-04",
+      "aadhaar": "XXXX-XXXX-4820",
+      "mobile": "98440 18293",
+      "email": "prakash.naik@example.com",
+      "addressTe": "నరసన్నపేట, శ్రీకాకుళం జిల్లా",
+      "addressEn": "Narasannapeta, Srikakulam District",
+      "village": "నరసన్నపేట (Narasannapeta)",
+      "hobli": "నరసన్నపేట (Narasannapeta)",
+      "taluk": "నరసన్నపేట (Narasannapeta)",
+      "district": "శ్రీకాకుళం (Srikakulam)",
+      "pincode": "532421"
+    },
+    "applicationDate": "2026-10-20T15:30:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 4,
+    "slaStatus": "NORMAL",
+    "priorityScore": 88,
+    "status": "PENDING",
+    "declaredDetails": {
+      "casteClaimed": "షెడ్యూల్డ్ తెగ (ST - Scheduled Tribe)",
+      "subCaste": "నాయక్ / వాల్మీకి (ST)",
+      "annualIncomeClaimed": 45000,
+      "incomeSource": "వ్యవసాయం",
+      "landHolding": "1 ఎకరం",
+      "purpose": "ఏపీపీఎస్సీ ప్రభుత్వ ఉద్యోగ రిజర్వేషన్"
+    },
+    "documents": [
+      {
+        "id": "DOC-31",
+        "nameTe": "ఆధార్ కార్డు",
+        "nameEn": "Aadhaar Card",
+        "type": "AADHAAR",
+        "status": "VERIFIED",
+        "verifiedVia": "UIDAI e-KYC API",
+        "extractedData": {
+          "name": "Prakash Naik",
+          "dob": "04/12/2002"
+        }
+      },
+      {
+        "id": "DOC-32",
+        "nameTe": "పాఠశాల బదిలీ పత్రం (TC)",
+        "nameEn": "Applicant's School TC",
+        "type": "SCHOOL_TC",
+        "status": "FLAGGED",
+        "verifiedVia": "CSE AP School Records DB",
+        "extractedData": {
+          "casteMentioned": "Naik (నాయక్)",
+          "category": "BC-A (వెనుకబడిన తరగతి)",
+          "flag": "School record states BC-A, but applicant claimed ST (Scheduled Tribe)"
+        }
+      },
+      {
+        "id": "DOC-33",
+        "nameTe": "తండ్రి పాత పాఠశాల ప్రవేశ రిజిస్టర్ (1978)",
+        "nameEn": "Father's Historic Admission Register",
+        "type": "FATHER_SCHOOL_RECORD",
+        "status": "FLAGGED",
+        "verifiedVia": "DEO Office Record Search",
+        "extractedData": {
+          "casteRecorded": "BC-A (వెనుకబడిన తరగతి)",
+          "flag": "Conclusively proves family belongs to BC-A, NOT Scheduled Tribe"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "వి. సత్యనారాయణ (రెవెన్యూ ఇన్‌స్పెక్టర్ / RI)",
+      "inspectionDate": "2026-10-25",
+      "remarksTe": "దరఖాస్తుదారు కుటుంబం బీసీ-ఎ వర్గానికి చెందినది. ఎస్టీ (షెడ్యూల్డ్ తెగ) గా తప్పుడు క్లెయిమ్ చేశారు. పాఠశాల రికార్డుల ప్రకారం ఎస్టీ ధ్రువీకరణకు ఎలాంటి అర్హత లేదు.",
+      "remarksEn": "Applicant belongs to BC-A community. Fraudulently claimed Scheduled Tribe (ST) status. Ineligible for ST reservation.",
+      "recommended": false
+    },
+    "aiAnalysis": {
+      "summaryTe": "తీవ్రమైన చట్టబద్ధ కుల వర్గీకరణ లోపం! దరఖాస్తుదారుడు ఎస్టీ (షెడ్యూల్డ్ తెగ) కుల ధ్రువీకరణ పత్రం కోరారు. అయితే దరఖాస్తుదారుని స్వంత పాఠశాల టీసీ మరియు తండ్రి 1978 నాటి పాఠశాల ప్రవేశ రిజిస్టర్‌లో 'బీసీ-ఎ' (వెనుకబడిన తరగతి) అని స్పష్టంగా నమోదై ఉంది. చారిత్రక రికార్డుల ప్రకారం కుటుంబం బీసీ-ఎ లోకి వస్తుంది తప్ప ఎస్టీ వర్గంలోకి రాదు. సుప్రీంకోర్టు ఆదేశాల ప్రకారం తహశీల్దార్ పాత రికార్డులను మార్చలేరు. వెంటనే తిరస్కరణకు సిఫార్సు చేయబడింది.",
+      "summaryEn": "Critical legal caste misclassification! Applicant claimed Scheduled Tribe (ST) status. However, applicant's own school TC and father's 1978 admission register conclusively establish caste as 'BC-A'. Historical records prohibit granting ST reservation. Immediate rejection recommended per Supreme Court rulings.",
+      "riskLevel": "HIGH",
+      "riskColor": "red",
+      "confidenceScore": 99,
+      "suggestedDecision": "REJECT",
+      "suggestedDecisionTe": "తిరస్కరణకు బలమైన సిఫార్సు (తప్పుడు కుల క్లెయిమ్)",
+      "suggestedDecisionEn": "Strong Rejection Recommended (Erroneous ST Claim)",
+      "discrepancies": [
+        "కుల వ్యత్యాసం: దరఖాస్తులో ఎస్టీ అని పేర్కొన్నారు, కానీ విద్యా రికార్డులలో బీసీ-ఎ గా నమోదై ఉంది",
+        "తండ్రి 1978 నాటి పాఠశాల ప్రవేశ వహిలో బీసీ-ఎ గా రుజువైంది"
+      ],
+      "reasonsTe": [
+        "ఆంధ్రప్రదేశ్ ఎస్సీ, ఎస్టీ, బీసీ తప్పుడు ధ్రువపత్రాల నియంత్రణ చట్టం 1993 ప్రకారం ఇది శిక్షార్హమైన నేరం.",
+        "సుప్రీంకోర్టు తీర్పుల ప్రకారం పురాతన పాఠశాల ప్రవేశ రికార్డులలోని కుల నమోదులను మార్చే అధికారం రెవెన్యూ అధికారులకు లేదు."
+      ],
+      "reasonsEn": [
+        "Claiming ST status without genealogical evidence is a penal violation under AP SC/ST/BC Regulation Act.",
+        "Supreme Court rulings prohibit altering historic school admission register caste entries."
+      ],
+      "statuteReference": "ఆంధ్రప్రదేశ్ (SC/ST/BC) నకిలీ కుల ధ్రువపత్రాల నియంత్రణ చట్టం 1993",
+      "suggestedCitizenRemarkTe": "పాఠశాల ప్రవేశ రికార్డుల ప్రకారం మీ కుటుంబం బీసీ-ఎ వర్గానికి చెందినట్లు నిర్ధారణ అయింది. నిబంధనల ప్రకారం మీరు షెడ్యూల్డ్ తెగ (ST) ధ్రువీకరణకు అర్హులు కానందున మీ దరఖాస్తును తిరస్కరించడమైనది."
+    },
+    "officerDecision": null
+  },
+  {
+    "id": "APP-2026-010",
+    "applicationNumber": "AP0013849204",
+    "serviceType": "CROP_LOSS_RELIEF",
+    "serviceNameTe": "పంట నష్ట పరిహారం (ఉమ్మడి పట్టాదారుల సమ్మతి పత్రం లోపం)",
+    "serviceNameEn": "Crop Loss Relief Subsidy (Joint Khata Consent Missing)",
+    "applicant": {
+      "nameTe": "నింగప్ప నాయుడు",
+      "nameEn": "Ningappa Naidu",
+      "fatherNameTe": "భీమన్న",
+      "fatherNameEn": "Bheemanna",
+      "gender": "పురుషుడు (Male)",
+      "age": 48,
+      "dob": "1978-03-12",
+      "aadhaar": "XXXX-XXXX-3849",
+      "mobile": "99801 29384",
+      "email": "",
+      "addressTe": "మోరంపూడి, రాజమండ్రి రూరల్, తూర్పు గోదావరి జిల్లా",
+      "addressEn": "Morampudi, Rajahmundry Rural, East Godavari District",
+      "village": "మోరంపూడి (Morampudi)",
+      "hobli": "రాజమండ్రి రూరల్ (Rajahmundry)",
+      "taluk": "రాజమండ్రి (Rajahmundry)",
+      "district": "తూర్పు గోదావరి (East Godavari)",
+      "pincode": "533107"
+    },
+    "applicationDate": "2026-10-24T17:00:00Z",
+    "slaDaysTotal": 14,
+    "slaDaysRemaining": 8,
+    "slaStatus": "NORMAL",
+    "priorityScore": 64,
+    "status": "PENDING",
+    "declaredDetails": {
+      "scheme": "పంట నష్ట పరిహారం (సోయాబీన్ / మినుము)",
+      "surveyNumber": "88/1",
+      "extentDamaged": "4 ఎకరాల 20 కుంటలు",
+      "damagePercentage": "50% నష్టం",
+      "ownership": "ఉమ్మడి పట్టాదారు పాస్‌బుక్ (Joint Khata with Brothers)"
+    },
+    "documents": [
+      {
+        "id": "DOC-34",
+        "nameTe": "మీభూమి అడంగల్ రికార్డు (1-B)",
+        "nameEn": "Webland Adangal Record",
+        "type": "RTC_LAND",
+        "status": "FLAGGED",
+        "verifiedVia": "AP Meebhoomi Portal",
+        "extractedData": {
+          "surveyNo": "88/1",
+          "extent": "4 Acres 20 Guntas",
+          "jointOwners": ["Ningappa Naidu", "Yellappa Naidu", "Fakirappa Naidu"],
+          "flag": "Three joint owners on Adangal, but single applicant claimed total relief without NOC"
+        }
+      },
+      {
+        "id": "DOC-35",
+        "nameTe": "ఉమ్మడి పట్టాదారుల నిరభ్యంతర పత్రం (Joint NOC)",
+        "nameEn": "Joint Owners Consent NOC",
+        "type": "JOINT_NOC",
+        "status": "MISSING",
+        "verifiedVia": "System Check",
+        "extractedData": {
+          "flag": "సోదరుల సమ్మతి పత్రం జతపరచలేదు (Missing mandatory NOC)"
+        }
+      }
+    ],
+    "fieldInspection": {
+      "inspectedBy": "ఎం. వెంకటేశ్వర్లు (వీఆర్వో)",
+      "inspectionDate": "2026-10-27",
+      "remarksTe": "క్షేత్ర పరిశీలన చేయబడింది. పంట నష్టం నిజమే. కానీ సర్వే నం. 88/1 ఉమ్మడి ఖాతాగా ఉంది. మిగతా సోదరులైన ఎల్లప్ప, ఫకీరప్పల సమ్మతి పత్రం అవసరం.",
+      "remarksEn": "Field inspection verified crop damage. However, survey 88/1 is joint khata and consent letters from co-owners Yellappa and Fakirappa are mandatory.",
+      "recommended": false
+    },
+    "aiAnalysis": {
+      "summaryTe": "ఉమ్మడి భూమి నిరభ్యంతర పత్రం (NOC) లోపం. పంట నష్టం నిజమైనదే అయినప్పటికీ, మీభూమి 1-B ప్రకారం ముగ్గురు సోదరులు ఉమ్మడి పట్టాదారులుగా ఉన్నారు. నింగప్ప నాయుడు మొత్తం 4.20 ఎకరాలకు ఒంటరిగా పరిహారం కోరారు, మిగతా ఇద్దరు సోదరుల సమ్మతి పత్రం జతపరచలేదు. తిరస్కరించకుండా, మిగతా సోదరుల నిరభ్యంతర పత్రం (NOC) సమర్పించడానికి దరఖాస్తును పునఃసమీక్షకు పంపడం సరైనది.",
+      "summaryEn": "Joint khata NOC deficiency. Crop loss is genuine. However, Meebhoomi 1B shows 3 joint owners. Applicant claimed subsidy for the entire land without co-owners NOC. Recommend returning to citizen to upload joint NOC from brothers within 7 days.",
+      "riskLevel": "MEDIUM",
+      "riskColor": "blue",
+      "confidenceScore": 93,
+      "suggestedDecision": "RETURN",
+      "suggestedDecisionTe": "పునఃసమీక్షకు పంపడానికి సిఫార్సు (NOC అవసరం)",
+      "suggestedDecisionEn": "Recommended to Return for Joint NOC",
+      "discrepancies": [
+        "ఉమ్మడి యాజమాన్యం: సర్వే 88/1 లో ఎల్లప్ప మరియు ఫకీరప్ప ఉమ్మడి పట్టాదారులు",
+        "సోదరుల సమ్మతి పత్రం (NOC) జతపరచలేదు"
+      ],
+      "reasonsTe": [
+        "రెవెన్యూ నిబంధనల ప్రకారం ఉమ్మడి భూమికి ఒకరే పరిహారం పొందాలంటే ఇతర పట్టాదారుల సమ్మతి పత్రం తప్పనిసరి.",
+        "భవిష్యత్తులో కుటుంబ తగాదాలు లేదా నిధుల దుర్వినియోగ వివాదాలు రాకుండా నిరోధించడానికి ఈ నిబంధన అవసరం."
+      ],
+      "reasonsEn": [
+        "Disaster relief guidelines mandate joint owners NOC if single applicant claims relief for entire joint ancestral survey.",
+        "Prevents future family litigation and disputes over public compensation disbursements."
+      ],
+      "statuteReference": "రెవెన్యూ విపత్తు నిబంధనలు - మార్గదర్శక నిబంధన 6",
+      "suggestedCitizenRemarkTe": "సర్వే నం. 88/1 లో మీతో పాటు ఇతర ఉమ్మడి పట్టాదారులైన ఎల్లప్ప, ఫకీరప్పల పేర్లు ఉన్నందున, పరిహారం మొత్తం మీరు తీసుకోవడానికి వారిచ్చిన నిరభ్యంతర పత్రాన్ని (NOC) 7 రోజుల్లోపు అప్‌లోడ్ చేయవలసిందిగా కోరడమైనది."
+    },
+    "officerDecision": null
+  }
+]
