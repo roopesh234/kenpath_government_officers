@@ -266,15 +266,11 @@ kenpath_government_officers/
 # 1. Clone the repository and navigate into it
 cd kenpath_government_officers
 
-# 2. Install root dependencies (concurrently, prettier, eslint)
+# 2. Install all dependencies in one command (Root, Server, and Client via npm workspaces)
 npm install
-
-# 3. Install server dependencies
-cd server && npm install && cd ..
-
-# 4. Install client dependencies
-cd client && npm install && cd ..
 ```
+
+> **Note**: Thanks to npm workspaces and automatic postinstall hooks, running `npm install` at the root automatically installs dependencies for both backend and frontend, and compiles the production client bundle.
 
 ### Launching the Application:
 
@@ -301,7 +297,44 @@ npm start
 
 ---
 
-## 📂 7. Realistic Case Studies Included
+## 🌐 7. Cloud Deployment Guide (Render / Cloud Hosts)
+
+When deploying to [Render](https://render.com) or any cloud platform:
+
+| Setting           | Value                  | Description                                                                            |
+| :---------------- | :--------------------- | :------------------------------------------------------------------------------------- |
+| **Service Type**  | **Web Service**        | Deploys a full-stack Node.js + Express application                                     |
+| **Environment**   | **Node**               | Node.js 18+ or 20+                                                                     |
+| **Build Command** | `npm run render-build` | Automatically runs `npm install` and compiles the Vite React client into `client/dist` |
+| **Start Command** | `npm start`            | **Important**: Use `npm start` (`node server/server.js`), not `npm run dev`            |
+| **Port**          | `process.env.PORT`     | Express automatically listens on the port dynamically assigned by Render               |
+
+### Why `npm start` Instead of `npm run dev` on Cloud Deployments?
+
+- `npm run dev` is strictly designed for local multi-terminal development (running Vite HMR dev server and `node --watch`).
+- In production cloud environments like Render, `npm start` launches the production Express server, which serves both the optimized production React UI (`client/dist`) and the API routes (`/api/applications`) from a single process on the assigned port.
+
+---
+
+## 📂 8. Realistic Case Studies Included
+
+When deploying to [Render](https://render.com) or any cloud platform:
+
+| Setting | Value | Description |
+| :--- | :--- | :--- |
+| **Service Type** | **Web Service** | Deploys a full-stack Node.js + Express application |
+| **Environment** | **Node** | Node.js 18+ or 20+ |
+| **Build Command** | `npm run render-build` | Automatically runs `npm install` and compiles the Vite React client into `client/dist` |
+| **Start Command** | `npm start` | **Important**: Use `npm start` (`node server/server.js`), not `npm run dev` |
+| **Port** | `process.env.PORT` | Express automatically listens on the port dynamically assigned by Render |
+
+### Why `npm start` Instead of `npm run dev` on Cloud Deployments?
+- `npm run dev` is strictly designed for local multi-terminal development (running Vite HMR dev server and `node --watch`).
+- In production cloud environments like Render, `npm start` launches the production Express server, which serves both the optimized production React UI (`client/dist`) and the API routes (`/api/applications`) from a single process on the assigned port.
+
+---
+
+## 📂 8. Realistic Case Studies Included
 
 The repository comes pre-loaded with **10 diverse, realistic synthetic citizen cases** covering the entire spectrum of officer challenges in Andhra Pradesh and Telangana:
 
@@ -320,7 +353,7 @@ The repository comes pre-loaded with **10 diverse, realistic synthetic citizen c
 
 ---
 
-## 🧪 8. Automated Integration Tests & Output
+## 🧪 9. Automated Integration Tests & Output
 
 Run the automated integration test suite to verify all endpoints, AI query handling, and officer decision recording:
 
@@ -347,7 +380,7 @@ npm test
 
 ---
 
-## ⚖️ 9. Legal, Ethical & Governance Safeguards
+## ⚖️ 10. Legal, Ethical & Governance Safeguards
 
 1. **Zero Real Citizen PII**: All citizen names, Aadhaar numbers, phone numbers, and land parcels are completely fabricated and synthetic for demonstration and testing purposes.
 2. **Statutory Human Discretion**: In strict compliance with administrative law and constitutional principles, the AI Co-Pilot never takes an autonomous legal action. Every decision requires the officer's personal review, custom remarks, and digital authorization.
